@@ -1,0 +1,15 @@
+{
+  "index": "简介",
+  "projects": "项目",
+  "publications": "出版物",
+  "about": {
+    "title": "关于",
+    "type": "page"
+  },
+  "contact": {
+    "title": "联系 ↗",
+    "type": "page",
+    "href": "https://twitter.com/Cheerful_Chen",
+    "newWindow": true
+  }
+}

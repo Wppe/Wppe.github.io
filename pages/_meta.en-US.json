@@ -1,0 +1,15 @@
+{
+  "index": "Introduction",
+  "projects": "Projects",
+  "publications": "Publications",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/Cheerful_Chen",
+    "newWindow": true
+  }
+}
