@@ -30,12 +30,13 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: 8
+          version: 9
           
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: pnpm
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -50,7 +51,7 @@ jobs:
         run: pnpm install
       
       - name: Build with Next.js
-        run: next build
+        run: pnpm run build
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
